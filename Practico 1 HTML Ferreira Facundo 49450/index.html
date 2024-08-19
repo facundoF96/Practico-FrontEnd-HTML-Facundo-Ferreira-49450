@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            text-align: center;
+            border: 1px solid black;
+            background-color: gray;
+            padding: 8px;
+            }
+        article{
+            text-align: center;
+            border: 1px solid blue;
+            background-color: lightyellow;
+            padding: 8px;
+        }
+        section{
+            border: 1px solid darkgoldenrod;
+            background-color: lightblue;
+            padding: 8px;
+        }
+        table{
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            background-color: lightgrey;
+        }
+        footer{
+            text-align: center;
+            border: 1px solid black;
+            background-color: gray;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://andinasa.com/img/prestashop-logo-1712232032.jpg" 
+            width="100px" alt="logo de la empresa">
+        </div>
+        <div>
+        <h1>DISTRIBUIDORA ANDINA</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <div>
+            <h3>Índice</h3>
+            </div>
+            <div>
+            <ol>
+               <li><a href="#SN">Sobre Nosotros</a></li>
+               <li><a href="#PPE">Precios Por Envio</a></li>
+               <li><a href="#PO">Página Oficial</a></li>
+               <li><a href="#SUCUR">Sucursales</a></li>
+            </ol>
+            </div>
+
+        </section>
+        <article>
+            <div>
+            <h2 id="SN">Sobre Nosotros</h2>
+            </div>
+            <div>
+            <p> Somos  <b>representantes y distribuidores</b> de productos para 
+                el consumo masivo. Trabajamos constantemente para  
+                lograr eficiencia y flexibilidad en el canal, 
+                en conjunto con nuestros proveedores y clientes.
+                <br>
+                <br> 
+                <em>"Más de 45 sólidos años en el rubro y el 
+                reconocimiento de nuestros clientes, avalan 
+                nuestra trayectoria"</em>
+            </p>
+            </div>
+            <div>
+                <audio src="recursos\audio tp.mp3" controls ></audio>
+            </div>
+        </article>
+
+        <section>
+            <div>
+                <h2 id="PPE">Precios por envio</h2>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Distancia / Tipo Envio</th>
+                            <th>Envio Normal</th>
+                            <th>Envio Express</th>
+                            <th>Envio Especial</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>50 a 100km de la sucursal</td>
+                            <td>4000$</td>
+                            <td>6000$</td>
+                            <td>8000$</td>
+                        </tr>
+
+                        <tr>
+                            <td>101 a 500km de la sucursal</td>
+                            <td>6000$</td>
+                            <td>8000$</td>
+                            <td>10000$</td>
+                        </tr>
+
+                        <tr>
+                            <td>500km o más de la sucursal</td>
+                            <td>8000$</td>
+                            <td>10000$</td>
+                            <td>12000$</td>
+                        </tr>
+                            
+                    </tbody>
+
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2 id="PO">Pagina Oficial</h2>
+            </div>
+            <div>
+                <p> Puede acceder a la pagina oficial de Distribuidora Andina</p>
+                <a href="https://andinasa.com/" target="_blank">
+                    Click Aqui
+                </a>
+            </div>
+        </section>
+        <section>
+        <h2 id="SUCUR">Sucursales</h2>
+        <div>
+            <video src="recursos\Distribuidora Andina S.A..mp4" controls width="300px"></video>
+        </div>
+        <div>
+        <ul>
+            <li>Bogotá, Lopez Jordán 45</li>
+            <li>Neiva, Av. Roque Saenz Peña 1757/65</li>
+            <li>Cali, Sargento Cabral 2253</li>
+
+        </ul>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h2>Deje sus datos y lo contactaremos</h2>
+        </div>
+        <div>
+            <form>
+                <div>
+                    <label>Nombre</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div>
+                    <label>Email</label>
+                </div>
+                <div>
+                    <input type="email" placeholder="ejemplo@ejemplo.com">
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Quiero recibir ofertas en mi correo</label>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
